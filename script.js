@@ -2,7 +2,16 @@ let input = document.querySelector('.input')
 let button = document.querySelector('.button');
 let listaPai = document.querySelector('.lista-pai');
 
+
+
 button.addEventListener('click', () => {
+    if(input.value === ''){
+
+        window.alert('Escreva uma tarefa')
+        return false
+    }
+
+    
     let lista = document.createElement('li')
     let checkButton = document.createElement('button')
     let trashButton = document.createElement('button')
