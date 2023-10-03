@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container-lista {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.lista button {
+    width: 10em;
+    outline-style: none;
+    border: none!important;
+    background-color: antiquewhite!important;
+}
+
+.lista button img {
+    width: 15%;
+}
+
+.lista button:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.risca-texto {
+    text-decoration: 3px green line-through;
+}
