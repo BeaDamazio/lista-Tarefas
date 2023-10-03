@@ -2,4 +2,4 @@
 
 Lista de tarefas desenvolvida por BEA 
 
-<a href="https://felipedamazio.github.io/JogoMario-javaScript/" target="_blank">TESTAR DEPLOY</a> 
+<a href="https://beadamazio.github.io/lista-Tarefas/" target="_blank">TESTAR DEPLOY</a> 
