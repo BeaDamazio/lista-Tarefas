@@ -33,19 +33,34 @@ body {
 
 .lista {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 4px;
+    font-size: 1em;
+    width: 95%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    border-radius: 10px;
+    margin-bottom: 20px;
+    animation: go-back 0.5s alternate;
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 4px 4px 5px black
 }
 
 .lista button {
-    width: 10em;
     outline-style: none;
-    border: none!important;
-    background-color: antiquewhite!important;
+    border: none !important;
+    background-color: antiquewhite !important;
 }
 
 .lista button img {
-    width: 15%;
+    width: 1.8em;
 }
 
 .lista button:hover {
@@ -54,4 +69,32 @@ body {
 
 .risca-texto {
     text-decoration: 3px green line-through;
+}
+
+
+@keyframes go-back {
+    from {
+        transform: translateX(5px);
+    }
+
+    to {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(2);
+        opacity: 10%;
+        border-radius: 20%;
+    }
+
+    50% {
+        opacity: 30%;
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
 }
